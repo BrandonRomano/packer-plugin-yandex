@@ -2,7 +2,7 @@
 # https://github.com/hashicorp/integration-template#metadata-configuration
 integration {
   name = "Yandex"
-  description = "TODO"
+  description = "The Yandex plugin is able to manage images for use with the Yandex Compute Cloud."
   identifier = "packer/BrandonRomano/yandex"
   component {
     type = "builder"
@@ -11,12 +11,12 @@ integration {
   }
   component {
     type = "post-processor"
-    name = "Yandex.Cloud Compute Image Exporter"
+    name = "Yandex Export"
     slug = "yandex-export"
   }
   component {
     type = "post-processor"
-    name = "Yandex.Cloud Compute Image Import"
+    name = "Yandex Import"
     slug = "yandex-import"
   }
 }
