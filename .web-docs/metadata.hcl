@@ -3,7 +3,7 @@
 integration {
   name = "Yandex"
   description = "The Yandex plugin is able to manage images for use with the Yandex Compute Cloud."
-  identifier = "packer/BrandonRomano/yandex"
+  identifier = "packer/hashicorp/yandex"
   component {
     type = "builder"
     name = "Yandex Compute"

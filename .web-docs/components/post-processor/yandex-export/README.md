@@ -40,7 +40,7 @@ Also, you should configure [ssh communicator](/packer/docs/communicators/ssh). D
 - `paths` ([]string) - List of paths to Yandex Object Storage where exported image will be uploaded.
   Please be aware that use of space char inside path not supported.
   Also this param support [build](/packer/docs/templates/legacy_json_templates/engine) template function.
-  Check available template data for [Yandex](/packer/integrations/BrandonRomano/yandex#build-template-data) builder.
+  Check available template data for [Yandex](/packer/integrations/hashicorp/yandex#build-template-data) builder.
   Paths to Yandex Object Storage where exported image will be uploaded.
 
 <!-- End of code generated from the comments of the Config struct in post-processor/yandex-export/post-processor.go; -->
